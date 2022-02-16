@@ -5,4 +5,4 @@ This is my first take on implementing Primordial Particle System(PPS) by Schmick
 
 As an example of an Agent Based Modelling (ABM), one is tempted to write it up as objects and classes, but for self-education and speeding purposes, I tried to stick with matrices and functions (probably another reason could be the unfriendly blend of Numba library with OOP).
 
-One file (simulator.py) only renders the simulation and saves all frames data as an npz file, then another file (animator.py) creates the animation file.
+One file (PPS_simulator.py) only renders the simulation and saves all frames data as an npz file, then another file (PPS_animator.py) creates the animation file.
